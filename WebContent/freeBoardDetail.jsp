@@ -21,6 +21,18 @@
   		padding: 10px;
 		text-allign: center;
 	}
+	#freeBoardReplyArea {
+		grid-area: main;
+		width: 1000px;
+		margin-left: 9%;
+		margin-top: 40px;
+	}
+	#freeBoardReplyTable {
+		width: 900px;
+		margin: 20px auto;
+  		padding: 10px;
+		text-allign: center;
+	}
 	tr, td {
 		border: 2px solid lightgray;
 		padding: 10px;
@@ -57,7 +69,7 @@
 		<!-- Contents -->
 		<div id="Content">
 		
-			<!-- noticeDetail Area -->
+			<!-- freeBoardDetail Area -->
 			<div id="freeDetailArea">
 			<h2>자유게시판</h2>
 				<div class="card">
@@ -81,7 +93,38 @@
 						<tr><td>글 내용</td></tr>
 					</table>
 				</div>
-			</div> <!-- end bookDetail Area -->
+			</div> <!-- end freeBoardDetail Area -->
+			
+			<!-- freeBoard reply Area -->
+			<div id="freeBoardReplyArea">
+				<div class="card">
+				<div class="card-body">
+					<p>댓글 수 0 개<p>
+					<table id="freeBoardReplyTable">
+						<tr>
+							<td>user01</td>
+							<td>어쩌고 저쩌고 재밌네요</td>
+							<td>
+								<a href="#">삭제하기</a>
+							</td>
+						</tr>
+					</table>
+					
+					<hr style="width:900px; margin-left:3%;">
+					
+					<div class="card">
+						<div class="card-body">
+						  <label for="comment">Comment:</label>
+							<div class="form-group">
+							  <textarea class="form-control" rows="2" id="comment" style="float:left; width:800px;"></textarea>
+							  <button class="btn btn-info" style="width:90px; height:58px;margin-left:15px">댓글 등록</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- end freeBoard reply Area -->
 			
 			<div id="btnPack">
 				<button id="gotoPreviousBtn" class="btn btn-info" style="float:left;">이전 글</button>
