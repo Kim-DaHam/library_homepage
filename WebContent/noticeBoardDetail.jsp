@@ -85,7 +85,7 @@
 			
 			<div id="btnPack">
 				<button id="gotoPreviousBtn" class="btn btn-info" style="float:left;">이전 글</button>
-				<button id="gotoListBtn" class="btn btn-info" style="float:left;">목록으로</button>
+				<button id="gotoListBtn" class="btn btn-info" style="float:left;" onclick="location.href='noticeBoardList.jsp'">목록으로</button>
 				<button id="gotoNextBtn" class="btn btn-info">다음 글</button>
 			</div>
 			

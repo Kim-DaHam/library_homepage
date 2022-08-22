@@ -87,7 +87,7 @@
 					  	<form>
 						  	아이디 <input type="text" value="" placeholder="ID" id="inputID" style="margin-left:15px;"><br>
 						  	비밀번호 <input type="password" value="" placeholder="Password" id="inputPWD">
-					  		<button class="btn btn-info" id="loginBtn">로그인</button>
+					  		<button class="btn btn-warning" id="loginBtn">로그인</button>
 					  	</form>
 					  </div>
 					</div>

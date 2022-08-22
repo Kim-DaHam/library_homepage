@@ -48,8 +48,8 @@
 					<table id="writeNoticeTable">
 						<tr>
 							<td>
-								<select name="job">
-								    <option value="">카테고리</option>
+								<select name="category">
+								    <option value="" selected>카테고리</option>
 								    <option value="공지">공지</option>
 								    <option value="행사">행사</option>
 								    <option value="기타">기타</option>

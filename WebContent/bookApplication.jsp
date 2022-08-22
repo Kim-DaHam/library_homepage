@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Applicationbook.jsp</title>
+<title>bookApplication.jsp</title>
 <style type="text/css">
 	#searchBar{
 		margin-top: 20px;
@@ -22,13 +22,13 @@
 	#searchBarInput {
 		width: 550px;
 	}
-	#applicationBookArea {
+	#bookApplicationArea {
 		grid-area: main;
 		width: 1000px;
 		margin-left: 9%;
 		margin-top: 40px;
 	}
-	#applicationBookTable {
+	#bookApplicationTable {
 		width: 900px;
 		margin: 20px auto;
   		padding: 10px;
@@ -50,8 +50,8 @@
 		<!-- Contents -->
 		<div id="Content">
 		
-			<!-- applicationBook Area -->
-			<div id="applicationBookArea">
+			<!-- bookApplication Area -->
+			<div id="bookApplicationArea">
 			<h2>"도서 신청"</h2>
 				<div class="card">
 					<!-- searchBar -->
@@ -64,7 +64,7 @@
 						</nav>
 					</div><!-- end searchBar -->
 				
-					<table id="applicationBookTable">
+					<table id="bookApplicationTable">
 						<tr>
 							<td rowspan="2">이미지</td>
 							<td>책 제목</td>
@@ -81,10 +81,11 @@
 						</tr>
 						<tr><td>책 소개</td></tr>
 					</table>
+					<button id="applicateBtn" class="btn btn-warning">신청하기</button>
 				</div>
-			</div> <!-- end applicationBook Area -->
+			</div> <!-- end bookApplication Area -->
 			
-			<button id="gotoListBtn" class="btn btn-info">목록으로</button>
+			<button id="gotoListBtn" class="btn btn-info" onclick="location.href='applicated.jsp'">목록으로</button>
 			
 		</div> <!-- end Contents -->
 	</div> <!-- end Page Container -->

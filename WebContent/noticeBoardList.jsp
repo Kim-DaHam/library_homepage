@@ -8,9 +8,9 @@
 <title>noticeBoardList.jsp</title>
 <style type="text/css">
 	#searchBar nav {
-		width: 380px;
+		width: 460px;
 		border-radius: 15px;
-		margin-left: 62%;
+		margin-left: 54%;
 		margin-bottom: 10px;
 	}
 	#searchBar nav form{
@@ -52,6 +52,12 @@
 			  <div id="searchBar">
 				  <nav class="navbar navbar-expand-sm bg-light navbar-light">
 				    <form class="form-inline" action="/action_page.php">
+				    	<select name="category" style="margin-right:5px;">
+								    <option value="">카테고리</option>
+								    <option value="공지">공지</option>
+								    <option value="행사">행사</option>
+								    <option value="기타">기타</option>
+						</select>
 				      <input class="form-control mr-sm-2" type="text" placeholder="게시글 검색" id="searchBarInput">
 				      <button class="btn btn-success" type="submit">검색</button>
 				    </form>
@@ -78,7 +84,7 @@
 			</div>
 		</div> <!-- end bookList Area -->
 		
-		<button id="writeNoticeBtn" class="btn btn-info">글쓰기</button>
+		<button id="writeNoticeBtn" class="btn btn-info" onclick="location.href='noticeBoardWrite.jsp'">글쓰기</button>
 		
 		<!-- Pagination -->
 		<ul id="pagination" class="pagination justify-content-center" style="margin:20px 0">

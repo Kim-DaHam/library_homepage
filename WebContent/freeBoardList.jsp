@@ -77,7 +77,7 @@
 			</div>
 		</div> <!-- end bookList Area -->
 		
-		<button id="writefreeBoardBtn" class="btn btn-info">글쓰기</button>
+		<button id="writefreeBoardBtn" class="btn btn-info" onclick="location.href='freeBoardWrite.jsp'">글쓰기</button>
 		
 		<!-- Pagination -->
 		<ul id="pagination" class="pagination justify-content-center" style="margin:20px 0">
@@ -88,12 +88,12 @@
 		  </li>
 		</ul>
 		
+		</div> <!-- end Contents -->
 		<!-- Footer -->
 		<footer class="w3-container w3-center w3-margin-top" style="background-color:lightgray;">
 		  <p style="margin-top:10px;">금오공과대학교 김다함 mini Project</p>
 		  <p>2022-08-24-화요일</p>
 		</footer>
-		</div> <!-- end Contents -->
 	</div> <!-- end Page Container -->
 </body>
 </html>

@@ -30,6 +30,9 @@
   		padding: 10px;
 		text-allign: center;
 	}
+	#pagination{
+		grid-area: footer;
+	}
 </style>
 </head>
 <body>
@@ -72,14 +75,14 @@
 				</div> <!-- end bookList Area -->
 				
 				<!-- Pagination -->
-				<ul id="pagination" class="pagination justify-content-center" style="margin:20px 0">
+				<ul id="pagination" class="pagination justify-content-center" style="margin-top:0px; margin-bottom:50px;">
 				  <li class="page-item">
 						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
 						  
 						<li class="page-item"><a class="page-link" href="#">Next</a></li>
 				  </li>
 				</ul>
-			</div> <!-- end Contents -->
+			</div> <!-- end Main Contents -->
 		
 		<!-- Footer -->
 		<footer class="w3-container w3-center w3-margin-top" style="background-color:lightgray;">
